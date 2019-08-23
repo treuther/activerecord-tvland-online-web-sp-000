@@ -14,4 +14,4 @@ class Show < ActiveRecord::Base
 # def actors_list
 #   a = self.characters.map {|ea| ea.character}
 #   b = self.a.map {|name|}
-# end
+end
