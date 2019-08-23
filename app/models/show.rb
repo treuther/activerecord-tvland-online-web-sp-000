@@ -4,7 +4,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def actors_list
-    # character_name = self.characters.map {|character| character.actor}
-    # character_name.Actor.full_name
+    # Returns an array of the full names of each actor associated with the show
+    # A show has many actors through characters
+    character_name = self.characters.map {|character| character.actor}
+    character_name.Actor.full_name
   end
 end
