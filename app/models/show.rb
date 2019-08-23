@@ -10,7 +10,7 @@ class Show < ActiveRecord::Base
 #     a.Actor.full_name
 #   end
 # end
-# 
+#
 # def actors_list
 #   a = self.characters.map {|ea| ea.character}
 #   b = self.a.map {|name|}
