@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   def actors_list
     # Returns an array of the full names of each actor associated with the show
     # A show has many actors through characters
-    actor_name = self.characters.map {|character| character.actor}
-    character_name.Actor.full_name
+    a = self.characters.map {|name| name.actor}
+    a.Actor.full_name
   end
 end
