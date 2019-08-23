@@ -16,5 +16,6 @@ class Show < ActiveRecord::Base
 #   b = self.a.map {|name|}
 
 def actors_list
+  binding.pry
 end
 end
